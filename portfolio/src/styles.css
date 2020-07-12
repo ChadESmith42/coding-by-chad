@@ -3,3 +3,12 @@
 .no-border {
     border: none!important;
 }
+
+.main {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.project-cards {
+    padding-bottom: 24px;
+}

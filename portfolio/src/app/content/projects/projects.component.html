@@ -1,1 +1,24 @@
-<p>projects works!</p>
+<section class="row">
+    <article class="col-lg-12">
+    <h2>Projects</h2>
+    <p class="text-primary">
+        I have coded each of these projects. Most of these are viewable on my StackBlitz or GitHub repositories. Unless otherwise noted, the work is entirely my own.
+    </p>
+    <p class="text-info lead">
+        Please note that all links open in a new tab.
+    </p>
+    </article>
+</section>
+
+<section class="row">
+    <article class="col-lg-4 project-cards" *ngFor="let project of projects; index as i">
+        <div class="card h-100">
+            <img src="{{project.imgPath}}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">{{ project.name }}</h5>
+              <p class="card-text" *ngFor="let p of project.description">{{ p }}</p>
+              <a href="{{project.link}}" target="_blank" class="btn btn-primary">View Site</a>
+            </div>
+          </div>
+    </article>
+</section>
