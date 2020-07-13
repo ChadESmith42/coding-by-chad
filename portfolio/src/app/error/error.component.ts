@@ -17,4 +17,8 @@ export class ErrorComponent implements OnInit {
     this.error = this.errorService.Error;
   }
 
+  GoHome() {
+    this.router.navigate(['projects']);
+  }
+
 }

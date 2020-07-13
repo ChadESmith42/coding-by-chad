@@ -12,12 +12,14 @@
 
 <section class="row">
     <article class="col-lg-4 project-cards" *ngFor="let project of projects; index as i">
-        <div class="card h-100">
-            <img src="{{project.imgPath}}" class="card-img-top" alt="...">
+        <div class="card h-100 border-dark p-1">
+            <img src="{{project.imgPath}}" class="card-img-top rounded border border-info" alt="...">
             <div class="card-body">
               <h5 class="card-title">{{ project.name }}</h5>
               <p class="card-text" *ngFor="let p of project.description">{{ p }}</p>
-              <a href="{{project.link}}" target="_blank" class="btn btn-primary">View Site</a>
+            </div>
+            <div class="card-footer border-top-0">
+                <a href="{{project.link}}" target="_blank" class="btn btn-primary rounded">View Site</a>
             </div>
           </div>
     </article>
