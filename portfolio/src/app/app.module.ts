@@ -11,6 +11,7 @@ import { ResumeComponent } from './content/resume/resume.component';
 import { ProjectsComponent } from './content/projects/projects.component';
 import { SocialMediaComponent } from './content/social-media/social-media.component';
 import { ContactComponent } from './content/contact/contact.component';
+import { ErrorModule } from './error/error.module';
 
 @NgModule({
   declarations: [
@@ -23,11 +24,12 @@ import { ContactComponent } from './content/contact/contact.component';
     ContactComponent
   ],
   imports: [
-    BrowserModule,
     AppRoutingModule,
+    BrowserModule,
     NgbModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    ErrorModule
   ],
   providers: [ ],
   bootstrap: [AppComponent]
