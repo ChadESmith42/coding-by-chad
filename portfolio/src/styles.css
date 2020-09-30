@@ -1,4 +1,28 @@
-@import '../src/assets/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap');
+
+:root {
+  --turquoise: rgba(26, 188, 156,1.0);
+  --green-sea: rgba(22, 160, 133,1.0);
+  --sunflower: rgba(241, 196, 15,1.0);
+  --orange: rgba(243, 156, 18,1.0);
+  --emerald: rgba(46, 204, 113,1.0);
+  --nephritis: rgba(39, 174, 96,1.0);
+  --carrot: rgba(230, 126, 34,1.0);
+  --pumpkin: rgba(211, 84, 0,1.0);
+  --peter-river: rgba(52, 152, 219,1.0);
+  --belize-hole: rgba(41, 128, 185,1.0);
+  --alizarin: rgba(231, 76, 60,1.0);
+  --pomegranite: rgba(192, 57, 43,1.0);
+  --amethyst: rgba(155, 89, 182,1.0);
+  --wisteria: rgba(142, 68, 173,1.0);
+  --clouds: rgba(236, 240, 241,1.0);
+  --silver: rgba(189, 195, 199,1.0);
+  --wet-asphalt: rgba(52, 73, 94,1.0);
+  --midnight-blue: rgba(44, 62, 80,1.0);
+  --concrete: rgba(149, 165, 166,1.0);
+  --asbestos: rgba(127, 140, 141,1.0);
+}
+
 
 .no-border {
     border: none!important;
@@ -11,4 +35,61 @@
 
 .project-cards {
     padding-bottom: 24px;
+}
+
+body {
+  margin: 4px;
+  padding: 8px;
+  font-size: 18px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+}
+
+a {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+a:hover, a:focus {
+  text-decoration: underline solid var(--alizarin);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: [ startLeftMargin ] 40px [ endLeftMargin startContent ] auto [ endContent startRightMargin ] 40px [ endRightMargin ];
+  grid-template-rows: [ startHeader ] 64px [ endHeader startMain] auto [ endMain startFooter ] 40px [ endFooter ];
+  row-gap: 24px;
+}
+
+.header {
+  grid-area: startHeader / startContent / endHeader / endContent;
+  justify-self: start;
+}
+
+.main {
+  grid-area: startMain / startContent / endMain / endContent;
+  justify-self: start;
+  border-radius: 8px;
+}
+
+.footer {
+  grid-area: startFooter / startContent / endFooter / endContent;
+  justify-self: start;
+}
+
+.header, .footer {
+  background-color: var(--midnight-blue);
+  color: var(--clouds);
+  border-radius: 8px;
+}
+
+.main {
+  color: var(--midnight-blue);
+  background-color: var(--clouds);
 }

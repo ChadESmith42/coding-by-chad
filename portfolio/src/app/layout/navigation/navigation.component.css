@@ -1,0 +1,23 @@
+.navigation {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  color: var(--clouds);
+  background-color: var(--midnight-blue);
+  padding: 12px 24px 8px 24px;
+  border-radius: 8px;
+}
+
+.nav-links {
+  padding: 0 24px 0 48px;
+}
+
+span.nav-link-item a {
+  padding: 0 24px 0 12px;
+}
+
+.brand {
+  color: var(--clouds);
+  background-color: var(-midnight-blue);
+}
