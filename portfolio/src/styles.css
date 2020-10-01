@@ -58,13 +58,8 @@ a {
   -webkit-any-link: var(--clouds);
 }
 
-a:hover, a:focus {
+a:hover, a:focus, a:visited {
   text-decoration: underline solid var(--alizarin);
-  -webkit-any-link: var(--clouds);
-}
-
-a:visited {
-  text-decoration: none;
   -webkit-any-link: var(--clouds);
 }
 

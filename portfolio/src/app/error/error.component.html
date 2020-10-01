@@ -1,53 +1,52 @@
 <ng-container *ngIf="error" [ngSwitch]="error.status">
-    <section class="bg-dark text-light rounded" *ngSwitchCase="401">
-        <h1 class="display-2 p-3 text-light">Who are you again?</h1>
-        <p class="lead p-3">Sorry, but we'd like to get to know you better before we share that with you.</p>
-        <p class="bolder font-weight-bold p-3">Can you login again? Or ask your administrator to bring you into the Circle of Trust?</p>
+    <section class="error-container" *ngSwitchCase="401">
+        <h1>Who are you again?</h1>
+        <p class="error-tag">Sorry, but we'd like to get to know you better before we share that with you.</p>
+        <p class="error-tag">Can you login again? Or ask your administrator to bring you into the Circle of Trust?</p>
     </section>
-    <section class="bg-dark text-light rounded" *ngSwitchCase="404">
-        <h1 class="display-2 p-3 text-light">I just had that in my hands a few minutes ago!</h1>
-        <p class="lead p-3">Sorry, but I seemed to have misplaced that file.</p>
-        <p class="error-feedback">Give me a few minutes to find it. Maybe go back the way you came and try again?</p>
+    <section class="error-container" *ngSwitchCase="404">
+        <h1>I just had that in my hands a few minutes ago!</h1>
+        <p class="error-tag">Sorry, but I seemed to have misplaced that file.</p>
+        <p class="error-tag">Give me a few minutes to find it. Maybe go back the way you came and try again?</p>
     </section>
-    <section class="bg-dark text-light rounded" *ngSwitchCase="409">
-        <h1 class="display-2 p-3 text-light">I'm getting some mixed signals here.</h1>
-        <p class="lead p-3">Sorry, but I thought we were doing that other thing instead of this thing?</p>
-        <p class="bolder font-weight-bold p-3">Somehow, we've gotten our wires crossed. Let's double check this before we try to proceed.</p>
+    <section class="error-container" *ngSwitchCase="409">
+        <h1>I'm getting some mixed signals here.</h1>
+        <p class="error-tag">Sorry, but I thought we were doing that other thing instead of this thing?</p>
+        <p class="error-tag">Somehow, we've gotten our wires crossed. Let's double check this before we try to proceed.</p>
     </section>
-    <section class="bg-dark text-light rounded" *ngSwitchCase="418">
-        <h1 class="display-2 p-3 text-light">I'm a teapot.</h1>
-        <p class="lead p-3">So maybe, just maybe, we've taken this joke a little to far. While no one has been hurt by this, it does make us all look a little silly.</p>
-        <p class="bolder font-weight-bold p-3">Maybe it's better if we just don't use this one and perhaps the internet will forget all about it. Right?</p>
+    <section class="error-container" *ngSwitchCase="418">
+        <h1>I'm a teapot.</h1>
+        <p class="error-tag">So maybe, just maybe, we've taken this joke a little to far. While no one has been hurt by this, it does make us all look a little silly.</p>
+        <p class="error-tag">Maybe it's better if we just don't use this one and perhaps the internet will forget all about it. Right?</p>
     </section>
 
-    <section class="bg-dark text-light rounded" *ngSwitchCase="500">
-        <h1 class="display-2 p-3 text-light">You just can't find good help these days!</h1>
-        <p class="lead p-3">I'm really sorry. Against my objections, the 'Powers-That-Be' farmed out that critical function to Less Than Trustworthy People.</p>
-        <p class="bolder font-weight-bold p-3">We all make mistakes. Why don't we try one more time? Maybe they're just too busy counting the millions we pay them to check if the server is running?</p>
+    <section class="error-container" *ngSwitchCase="500">
+        <h1>You just can't find good help these days!</h1>
+        <p class="error-tag">I'm really sorry. Against my objections, the 'Powers-That-Be' farmed out that critical function to Less Than Trustworthy People.</p>
+        <p class="error-tag">We all make mistakes. Why don't we try one more time? Maybe they're just too busy counting the millions we pay them to check if the server is running?</p>
     </section>
-    <section class="bg-dark text-light rounded" *ngSwitchCase="999">
-        <h1 class="display-2 p-3 text-light">It's not us, it's you.</h1>
-        <p class="lead p-3">This could be 1 of 2 issues: a PEBKAC or an ID-Ten-Tee.</p>
-        <p class="bolder font-weight-bold p-3">We've included some extra information below to help you figure it out. Everyone here knows, you need all of the help you can get.</p>
+    <section class="error-container" *ngSwitchCase="999">
+        <h1>It's not us, it's you.</h1>
+        <p class="error-tag">This could be 1 of 2 issues: a PEBKAC or an ID-Ten-Tee.</p>
+        <p class="error-tag">We've included some extra information below to help you figure it out. Everyone here knows, you need all of the help you can get.</p>
     </section>
-    <section class="bg-dark text-light rounded" *ngSwitchDefault>
-        <h1 class="display-2 p-3 text-light">Well, this is awkward!</h1>
-        <p class="lead p-3">Something went seriously wrong if you're seeing this.</p>
-        <p class="bolder font-weight-bold p-3">Not like, 'Oh, God, oh God, we're all gonna die' wrong, or even 'We have to talk about your flair' wrong. More like, 'Rodents of Unusual Size? I don't think they exist' wrong.</p>
+    <section class="error-container" *ngSwitchDefault>
+        <h1>Well, this is awkward!</h1>
+        <p class="error-tag">Something went seriously wrong if you're seeing this.</p>
+        <p class="error-tag">Not like, 'Oh, God, oh God, we're all gonna die' wrong, or even 'We have to talk about your flair' wrong. More like, 'Rodents of Unusual Size? I don't think they exist' wrong.</p>
     </section>
     <section>
-        <ul class="list-unstyled text-dark">
-            <li class="list-group-item text-danger no-border"><h4 class="h4">Status:</h4> {{ error.status }}</li>
-            <li class="list-group-item font-weight-bold no-border"><h4 class="h4">
+        <article class="error-block">
+            <span><h4>Status:</h4> {{ error.status }}</span>
+            <span><h4>
                 Error:
-            </h4> {{ error.message }}</li>
-            <li class="list-group-item font-weight-bold no-border"><h4 class="h4">
+            </h4> {{ error.message }}</span>
+            <span><h4>
                 Reference:
-            </h4> {{ error.traceId }} </li>
-        </ul>
-        <button class="btn btn-info rounded p-2" (click)="GoHome()">
+            </h4> {{ error.traceId }} </span>
+          </article>
+        <button class="nav-home" (click)="GoHome()">
             Home
         </button>
     </section>
-
 </ng-container>
