@@ -60,6 +60,10 @@ a:hover, a:focus {
   text-decoration: underline solid var(--alizarin);
 }
 
+a:visited {
+  text-decoration: none;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: [ startLeftMargin ] 40px [ endLeftMargin startContent ] auto [ endContent startRightMargin ] 40px [ endRightMargin ];

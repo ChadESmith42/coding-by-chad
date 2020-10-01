@@ -7,17 +7,28 @@
   background-color: var(--midnight-blue);
   padding: 12px 24px 8px 24px;
   border-radius: 8px;
+  height: 64px;
 }
 
 .nav-links {
-  padding: 0 24px 0 48px;
+  box-sizing: border-box;
+  padding: 8px 32px 12px 32px;
+  margin: 0 16px;
 }
 
-span.nav-link-item a {
-  padding: 0 24px 0 12px;
+.nav-link-item {
+  margin: 8px 16px 8px 16px;
+  padding: 0 24px 0 24px;
 }
 
 .brand {
   color: var(--clouds);
   background-color: var(-midnight-blue);
+}
+
+.active-link {
+  background-color: var(--belize-hole);
+  color: var(--wet-asphalt);
+  border-bottom: solid 4px var(--sunflower);
+  border-radius: 8px;
 }

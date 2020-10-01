@@ -1,3 +1,70 @@
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  border-radius: 8px;
+  margin: 24px 24px 12px 24px;
+}
+
+.item {
+  flex: 1 auto;
+}
+
+.jumbotron {
+  height: 240px;
+  padding: 0 0 16px 48px;
+}
+
+.projects {
+  background-color: var(--midnight-blue);
+  margin: 0;
+}
+
+.project-cards {
+  display: flex;
+  flex-flow: row wrap;
+  border: 4px solid var(--alizarin);
+  flex: 1 400px;
+  margin: 24px 48px;
+  border-radius: 8px;
+  padding: 0;
+}
+
 .card {
-  border: 2px solid var(--gray-dark);
+  background-color: var(--orange);
+  color: var(--clouds);
+}
+
+.card-title {
+  font-size: 28px;
+  color: var(--midnight-blue);
+  padding: 0;
+  margin: 0;
+}
+
+.card-img {
+  width: 100%;
+  height: 240px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.card-body {
+  margin: 8px 12px;
+}
+
+.card-footer {
+  position: sticky;
+  background-color: var(--pumpkin);
+  padding: 24px 0 24px 0;
+  height: 40px;
+  color: var(--clouds);
+}
+
+.btn {
+  border: none;
+  padding: 12px 24px;
+  background-color: var(--belize-hole);
+  color: var(--clouds);
+  border-radius: 12px;
+  margin: 8px 0 0 24px;
 }
