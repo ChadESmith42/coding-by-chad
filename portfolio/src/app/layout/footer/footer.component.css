@@ -3,7 +3,7 @@
   flex-flow: row nowrap;
   padding-left: 24px;
   color: var(--clouds);
-  background-color: var(--wisteria);
+  background-color: var(--midnight-blue);
   border-radius: 8px;
   text-decoration: none;
   font-family: 'VT323', monospace;
@@ -15,8 +15,10 @@
   flex: 1 auto;
 }
 
-.footer-item p a {
-  text-decoration: none;
+a:hover, a:focus, a:visited {
+  text-decoration: underline solid var(--alizarin);
+  -webkit-any-link: var(--clouds);
+  color: var(--clouds);
 }
 
 .footer-container h3 {

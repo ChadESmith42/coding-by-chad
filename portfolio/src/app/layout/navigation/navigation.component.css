@@ -35,3 +35,7 @@
   border-bottom: solid 4px var(--clouds);
   border-radius: 8px;
 }
+
+.active-link:hover, .active-link:focus {
+  text-decoration: underline solid var(--clouds);
+}
