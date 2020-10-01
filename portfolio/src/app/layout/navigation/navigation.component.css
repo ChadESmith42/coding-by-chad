@@ -27,8 +27,8 @@
 }
 
 .active-link {
-  background-color: var(--wisteria);
+  background-color: var(--pomegranate);
   color: var(--clouds);
-  border-bottom: solid 4px var(--sunflower);
+  border-bottom: solid 4px var(--clouds);
   border-radius: 8px;
 }

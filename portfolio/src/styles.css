@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
 :root {
   --turquoise: rgba(26, 188, 156,1.0);
@@ -12,7 +13,7 @@
   --peter-river: rgba(52, 152, 219,1.0);
   --belize-hole: rgba(41, 128, 185,1.0);
   --alizarin: rgba(231, 76, 60,1.0);
-  --pomegranite: rgba(192, 57, 43,1.0);
+  --pomegranate: rgba(192, 57, 43,1.0);
   --amethyst: rgba(155, 89, 182,1.0);
   --wisteria: rgba(142, 68, 173,1.0);
   --clouds: rgba(236, 240, 241,1.0);

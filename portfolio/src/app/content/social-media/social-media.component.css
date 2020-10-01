@@ -1,1 +1,32 @@
-.section { margin: 24px 24px 12px 24px; }
+.container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.item {
+  width: 208px;
+  height: 136px;
+  margin: 16px;
+  padding: 0 12px 0 12px;
+  border: none;
+  border-radius: 8px;
+  background-color: var(--midnight-blue);
+  color: var(--clouds);
+}
+
+.item a {
+  font-family: 'VT323', monospace;
+  font-size: 28px;
+  font-weight: 200;
+  color: var(--sunflower);
+  text-decoration: none;
+}
+
+.icon {
+  float: right;
+  height: 32px;
+  width: 32px;
+  background-color: var(--clouds);
+  padding: 2px;
+  border-radius: 8px;
+}
