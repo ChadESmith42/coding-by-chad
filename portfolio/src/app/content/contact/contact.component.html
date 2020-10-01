@@ -7,18 +7,18 @@
         <form [formGroup]="contactForm" (ngSubmit)="SendMessage()">
             <div class="form-group">
               <label for="from">Email address</label>
-              <input type="email" class="form-control" id="from" formControlName="from" aria-describedby="emailHelp">
+              <input type="email" class="form-control" id="from" formControlName="from" aria-describedby="emailHelp" autocomplete="email" spellcheck="false">
               <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
             </div>
             <div class="form-group">
               <label for="subject">Subject</label>
-              <input type="text" class="form-control" id="subject" formControlName="subject">
+              <input type="text" class="form-control" id="subject" formControlName="subject" autocomplete="off" spellcheck="true" aria-autocomplete="none">
             </div>
             <div class="form-group">
                 <label for="subject">Message</label>
-                <textarea class="form-control" id="subject" formControlName="subject" rows="3"></textarea>
+                <textarea class="form-control" id="subject" formControlName="subject" rows="10" cols="80" autocomplete="off" spellcheck="true" aria-autocomplete="none"></textarea>
             </div>
-          <button type="submit" class="btn btn-primary rounded">Submit</button>
+          <button type="submit" class="submit-button">Submit</button>
           </form>
     </article>
 </section>

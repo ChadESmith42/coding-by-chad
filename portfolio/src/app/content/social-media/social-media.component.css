@@ -10,7 +10,7 @@
   padding: 0 12px 0 12px;
   border: none;
   border-radius: 8px;
-  background-color: var(--midnight-blue);
+  background-color: var(--pomegranate);
   color: var(--clouds);
 }
 
@@ -18,7 +18,7 @@
   font-family: 'VT323', monospace;
   font-size: 28px;
   font-weight: 200;
-  color: var(--sunflower);
+  color: var(--clouds);
   text-decoration: none;
 }
 

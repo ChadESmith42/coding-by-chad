@@ -1,0 +1,47 @@
+section {
+  margin: 24px 40px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.h2 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+}
+
+section article p {
+  background-color: var(--midnight-blue);
+  color: var(--clouds);
+  padding: 8px 24px;
+  border-radius: 8px;
+}
+
+.form-group {
+  display: block;
+  margin: 0 0 24px 0;
+}
+
+.form-group label {
+  display: block;
+}
+
+.form-control {
+  border: none;
+  border-radius: 8px;
+  margin: 4px 0 0 0;
+  display: block;
+}
+
+.form-group input.form-control {
+  width: 25rem;
+  height: 32px;
+}
+
+.submit-button {
+  border: none;
+  padding: 8px;
+  height: 40px;
+  width: 8rem;
+  border-radius: 8px;
+  color: var(--clouds);
+  background-color: var(--pomegranate);
+}
