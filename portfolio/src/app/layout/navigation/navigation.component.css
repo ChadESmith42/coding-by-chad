@@ -19,11 +19,14 @@
 .nav-link-item {
   margin: 8px 16px 8px 16px;
   padding: 0 24px 0 24px;
+  font-weight: 300;
+  font-size: 24px;
 }
 
 .brand {
   color: var(--clouds);
-  background-color: var(-midnight-blue);
+  font-weight: 300;
+  font-size: 32px;
 }
 
 .active-link {

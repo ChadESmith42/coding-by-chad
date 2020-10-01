@@ -6,6 +6,9 @@
   background-color: var(--wisteria);
   border-radius: 8px;
   text-decoration: none;
+  font-family: 'VT323', monospace;
+  font-weight: 200;
+  font-size: 30px;
 }
 
 .footer-container > * {
@@ -14,4 +17,10 @@
 
 .footer-item p a {
   text-decoration: none;
+}
+
+.footer-container h3 {
+  font-family: 'VT323', monospace;
+  font-weight: 200;
+  font-size: 30px;
 }
