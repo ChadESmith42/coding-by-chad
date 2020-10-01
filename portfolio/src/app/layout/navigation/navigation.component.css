@@ -27,8 +27,8 @@
 }
 
 .active-link {
-  background-color: var(--belize-hole);
-  color: var(--wet-asphalt);
+  background-color: var(--wisteria);
+  color: var(--clouds);
   border-bottom: solid 4px var(--sunflower);
   border-radius: 8px;
 }

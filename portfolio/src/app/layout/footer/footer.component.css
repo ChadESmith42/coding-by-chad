@@ -2,7 +2,8 @@
   display: flex;
   flex-flow: row nowrap;
   padding-left: 24px;
-  background-color: var(--belize-hole);
+  color: var(--clouds);
+  background-color: var(--wisteria);
   border-radius: 8px;
   text-decoration: none;
 }

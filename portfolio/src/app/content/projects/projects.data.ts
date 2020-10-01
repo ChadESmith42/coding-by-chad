@@ -19,7 +19,7 @@ export const ProjectsData: Project[] = [
         name: 'Fun Fact Generator',
         link: 'https://cbcfunfactgenerator.z22.web.core.windows.net/',
         imgPath: '/assets/images/fun-fact-generator.png',
-        description: ['I got the idea for this project while sitting in a meeting, where we were asked to introduce ourselves and include a \'fun fact.\'', 'Hers\'s a fun fact: Developers don\'t like to share people personal details.', 'I created a simple list of nouns, adjectives, and verbs. The app picks a word from the list and puts them together to form a fun fact about you. Previous fun facts are listed on the page, but not stored after the session closes.'],
+        description: ['I got the idea for this project while sitting in a meeting, where we were asked to introduce ourselves and include a \'fun fact.\'', 'Hers\'s a fun fact: Developers don\'t like to share personal details.', 'I created a simple list of nouns, adjectives, and verbs. The app picks a word from the list and puts them together to form a fun fact about you. Previous fun facts are listed on the page, but not stored after the session closes.'],
         lastPublished: null
     },
     {

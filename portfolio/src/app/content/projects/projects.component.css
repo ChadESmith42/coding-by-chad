@@ -50,10 +50,14 @@
 
 .card-body {
   margin: 8px 12px;
+  height: 424px;
+  color: var(--midnight-blue);
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
 }
 
 .card-footer {
-  position: sticky;
+  box-sizing: content-box;
   background-color: var(--pumpkin);
   padding: 24px 0 24px 0;
   height: 40px;
@@ -63,8 +67,8 @@
 .btn {
   border: none;
   padding: 12px 24px;
-  background-color: var(--belize-hole);
-  color: var(--clouds);
+  background-color: var(--sunflower);
+  color: var(--wet-asphalt);
   border-radius: 12px;
   margin: 8px 0 0 24px;
 }

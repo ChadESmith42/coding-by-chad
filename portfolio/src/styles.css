@@ -54,14 +54,17 @@ a {
   font-family: 'Oswald', sans-serif;
   font-weight: 600;
   text-decoration: none;
+  -webkit-any-link: var(--clouds);
 }
 
 a:hover, a:focus {
   text-decoration: underline solid var(--alizarin);
+  -webkit-any-link: var(--clouds);
 }
 
 a:visited {
   text-decoration: none;
+  -webkit-any-link: var(--clouds);
 }
 
 .grid-container {

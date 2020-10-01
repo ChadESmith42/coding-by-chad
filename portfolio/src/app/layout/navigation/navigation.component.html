@@ -1,8 +1,8 @@
-<nav class="navigation">
-    <a class="brand item" [routerLink]="['/']" [routerLinkActive]="['active-link']" [routerLinkActiveOptions]="{exact: true}">Coding By Chad</a>
-    <div class="nav-links item">
-      <span *ngFor="let link of links" [routerLink]="link.fragment" [routerLinkActive]="['active-link']" [routerLinkActiveOptions]="{exact: true}" class="nav-link-item">
-        <a>{{ link.title }}</a>
-      </span>
-    </div>
-</nav>
+<section class="navigation">
+  <a class="brand item" [routerLink]="['/']" [routerLinkActive]="['active-link']" [routerLinkActiveOptions]="{exact: true}">Coding By Chad</a>
+  <div class="nav-links item">
+    <span *ngFor="let link of links" [routerLink]="link.fragment" [routerLinkActive]="['active-link']" [routerLinkActiveOptions]="{exact: true}" class="nav-link-item">
+      <a>{{ link.title }}</a>
+    </span>
+  </div>
+</section>
