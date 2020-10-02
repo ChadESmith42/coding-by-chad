@@ -14,13 +14,13 @@
   <section class="container item projects">
     <article class="project-cards" *ngFor="let project of projects; index as i">
       <div class="card">
-        <img src="{{project.imgPath}}" class="card-img" alt="...">
+        <img src="{{ project.imgPath }}" class="card-img" alt="...">
         <div class="card-body">
           <h5 class="card-title">{{ project.name }}</h5>
           <p class="card-text" *ngFor="let p of project.description">{{ p }}</p>
         </div>
         <div class="card-footer">
-          <a href="{{project.link}}" target="_blank" class="btn btn-primary">View Site</a>
+          <a href="{{ project.link }}" target="_blank" class="btn btn-primary">View Site</a>
         </div>
         </div>
     </article>

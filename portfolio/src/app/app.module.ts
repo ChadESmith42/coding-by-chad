@@ -12,6 +12,8 @@ import { ProjectsComponent } from './content/projects/projects.component';
 import { SocialMediaComponent } from './content/social-media/social-media.component';
 import { ContactComponent } from './content/contact/contact.component';
 import { ErrorModule } from './error/error.module';
+import { CardContainerComponent } from './card-container/card-container.component';
+import { ContentCardComponent } from './card-container/content-card/content-card.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { ErrorModule } from './error/error.module';
     ResumeComponent,
     ProjectsComponent,
     SocialMediaComponent,
-    ContactComponent
+    ContactComponent,
+    CardContainerComponent,
+    ContentCardComponent
   ],
   imports: [
     AppRoutingModule,
