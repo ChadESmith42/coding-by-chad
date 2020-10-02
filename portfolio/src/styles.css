@@ -24,24 +24,10 @@
   --asbestos: rgba(127, 140, 141,1.0);
 }
 
-
-.no-border {
-    border: none!important;
-}
-
-.main {
-    padding-top: 24px;
-    padding-bottom: 24px;
-}
-
-.project-cards {
-    padding-bottom: 24px;
-}
-
 body {
-  margin: 4px;
-  padding: 8px;
-  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  font-size: 1.25rem;
   font-family: 'Oswald', sans-serif;
   font-weight: 400;
 }
@@ -65,9 +51,9 @@ a:hover, a:focus, a:visited {
 
 .grid-container {
   display: grid;
-  grid-template-columns: [ startLeftMargin ] 40px [ endLeftMargin startContent ] auto [ endContent startRightMargin ] 40px [ endRightMargin ];
-  grid-template-rows: [ startHeader ] 64px [ endHeader startMain] auto [ endMain startFooter ] 40px [ endFooter ];
-  row-gap: 24px;
+  grid-template-columns: [ startLeftMargin ] 1.5rem [ endLeftMargin startContent ] auto [ endContent startRightMargin ] 1.5rem [ endRightMargin ];
+  grid-template-rows: [ startHeader ] auto [ endHeader startMain] auto [ endMain startFooter ] 1.5rem [ endFooter ];
+  row-gap: 1rem;
 }
 
 .header {
@@ -78,7 +64,10 @@ a:hover, a:focus, a:visited {
 .main {
   grid-area: startMain / startContent / endMain / endContent;
   justify-self: start;
-  border-radius: 8px;
+  border-radius: 0.5rem;
+  color: var(--midnight-blue);
+  background-color: var(--clouds);
+  padding: 1rem 0;
 }
 
 .footer {
@@ -89,10 +78,5 @@ a:hover, a:focus, a:visited {
 .header, .footer {
   background-color: var(--midnight-blue);
   color: var(--clouds);
-  border-radius: 8px;
-}
-
-.main {
-  color: var(--midnight-blue);
-  background-color: var(--clouds);
+  border-radius: 0.5rem;
 }

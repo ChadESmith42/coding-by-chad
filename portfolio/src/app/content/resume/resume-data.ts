@@ -122,7 +122,7 @@ export const resume = {
       location: 'BAIR Analytics, Highlands Ranch, CO',
       dateRange: 'August 2012 to February 2013',
       descriptions: ['Trained Research Managers for the Human Terrain System. Developed and taught GIS-based courses for adult learners using the ADDIE methodology.', 'Successfully communicated very technical subject matter to non-technical audience of learners.'],
-      achievements: ['']
+      achievements: []
     },
     {
       id: 8,
@@ -140,9 +140,9 @@ export const resume = {
       image: '',
       avatar: '',
       location: 'Courage Services, MacDill AFB, FL',
-      dateRange: '',
+      dateRange: 'October 2010 to May 2011',
       descriptions: ['Created written reports for various Intelligence Preparation of the Battlefield products for SOCOM personnel.', 'Conducted in-depth research and analysis of specific regions throughout the world.', 'Created spatial data-sets for analysis by proprietary software tools.'],
-      achievements: ['']
+      achievements: []
     },
     {
       id: 10,
@@ -152,19 +152,29 @@ export const resume = {
       location: 'Dallas Police Department, Dallas, TX',
       dateRange: 'September 2000 - August 2009',
       descriptions: ['Directly handled various different police officer activities, including serving as a Crime Analyst, Patrol Officer, Detective Analyst, and Field Training Officer.', 'Closely analyzed emerging crime trends or crime related issues. Demonstrated strong communication skills in presenting daily briefings during COMPSTAT meetings with the executive staff of the police department.', 'Designed, developed, and implemented key methodologies for analyzing spatial patterns of crime that conform to scientific methods; presented research findings at professional conferences. Actively collaborated with the academic and public researchers to develop appropriate sites for research projects for police methods.'],
-      achievements: ['Corrected legacy data problems and increased geocoding accuracy for spatial analysis by creating and implementing efficient structured query language (SQL) queries.', 'Earned a stellar reputation and was assigned as a subject matter expert on crime trends, including delivering interviews and background information to members of the press.', 'Boosted geocoding accuracy from 68% to over 99% by implementing methods to facilitate clean legacy data.', 'Performed three successful grant applications for the police department, which resulted in achieving $7.5M.', 'Earned 22 commendations, including a Meritorious Conduct Award, a 5 Year Service Pin, a 5 Year Safe Driving Award, and three Expert Marksmanship Awards.']
+      achievements: ['Corrected legacy data problems and increased geocoding accuracy for spatial analysis by creating and implementing efficient structured query language (SQL) queries.', 'Boosted geocoding accuracy from 68% to over 99% by implementing methods to facilitate clean legacy data.', 'Earned 22 commendations, including a Meritorious Conduct Award, a 5 Year Service Pin, a 5 Year Safe Driving Award, and three Expert Marksmanship Awards.']
     }
   ],
   organizations: [
     {
       id: 1,
-      title: '',
+      title: 'Coder Dojo',
       image: '',
       avatar: '',
-      location: '',
-      dateRange: '',
-      descriptions: [''],
-      achievements: ['']
+      location: 'Kansas City, MO',
+      dateRange: 'August 2018 - January 2020',
+      descriptions: ['Mentor students, ages 7-14, on coding issues as they develop their projects.'],
+      achievements: []
+    },
+    {
+      id: 2,
+      title: 'NgGirls',
+      image: '',
+      avatar: '',
+      location: 'Kansas City, MO',
+      dateRange: 'July 2019 - present',
+      descriptions: ['Served as mentor for new Angular developers during a two day workshop.'],
+      achievements: []
     }
   ]
 };

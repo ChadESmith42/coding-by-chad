@@ -7,8 +7,10 @@
       <h4 class="card-location">{{ card.location }}</h4>
       <span class="card-date-range">{{ card.dateRange }}</span>
     </div>
-    <p class="descriptions" *ngFor="let description of card.descriptions">{{ description ? description : '' }}</p>
-    <h4 class="achievements-title" *ngIf="card.achievements.length >= 1">Achievements</h4>
-    <p class="achievements" *ngFor="let achievement of card.achievements; index as i"> {{ achievement ? i + 1 + '. ' : '' }} {{ achievement ? achievement : '' }}</p>
+    <div class="card-details">
+      <p class="descriptions" *ngFor="let description of card.descriptions">{{ description ? description : '' }}</p>
+      <h4 class="achievements-title" *ngIf="card.achievements.length >= 1">Achievements</h4>
+      <p class="achievements" *ngFor="let achievement of card.achievements; index as i"> {{ achievement ? i + 1 + '. ' : '' }} {{ achievement ? achievement : '' }}</p>
+    </div>
   </div>
 </section>

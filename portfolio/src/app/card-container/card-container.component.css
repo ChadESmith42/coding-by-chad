@@ -1,11 +1,16 @@
-.container {
+.card-container {
   display: flex;
+  width: 100%;
   flex-flow: row wrap;
-  justify-content: start;
+  gap: 1rem;
+  -webkit-align-items: stretch;
   align-items: stretch;
-  gap: 24px 15px;
 }
 
 .card {
-  flex: 400px 400px;
+  flex: 1 24rem auto;
+}
+
+.filler {
+  flex: 1 0 auto;
 }

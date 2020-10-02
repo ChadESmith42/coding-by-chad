@@ -1,43 +1,46 @@
 .card {
   background-color: var(--pomegranate);
-  padding: 4px;
-  margin: 12px 16px;
-  border: solid 2px var(--midnight-blue);
-  border-radius: 8px;
-  max-width: 440px;
-  /* min-height: 448px; */
+  border: solid 0.125rem var(--midnight-blue);
+  border-radius: 0.5rem;
 }
 
+
 .card-body {
-  margin: 8px 12px;
-  padding: 4px 16px 8px 16px;
-  border-radius: 8px;
-  min-height: 448;
+  margin: 1rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border-radius: -0.5rem;
   background-color: var(--clouds);
   color: var(--midnight-blue);
+  width: 24rem;
 }
+
 
 .card-header {
   background-color: var(--midnight-blue);
   color: var(--clouds);
-  width: 100%;
-  height: 100%;
-  padding: 8px 16px;
-  margin: -4px -16px;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
+  padding: 0.25rem 1.0625rem;
+  margin: -0.75rem -1.0625rem;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
 }
 
 .card-title {
-  font-size: 28px;
+  font-size: 1.75rem;
   padding: 0;
   margin: 0;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
 }
 
+.card-img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 100%;
+  background-color: var(--midnight-blue);
+}
+
 .card-location {
-  font-size: 20px;
+  font-size: 1.25rem;
   padding: 0;
   margin: 0;
   font-family: 'Oswald', sans-serif;
@@ -45,24 +48,15 @@
 }
 
 .card-date-range {
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 
 .achievements-title {
   font-weight: 600;
   text-decoration: underline solid var(--pomegranate);
-  margin-bottom: 4px;
+  margin-bottom: 0.25rem;
 }
 
 .achievements {
   margin-top: 0;
-}
-
-section.education section.card div.card-body {
-  box-sizing: content-box;
-  min-height: 496px;
-}
-
-section.work section.card div.card-body {
-  box-sizing: content-box;
 }
