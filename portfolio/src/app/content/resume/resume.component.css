@@ -1,4 +1,9 @@
-.container {
+.resume-container {
   margin: 24px 0 12px 0;
   padding-left: 24px;
+  height: 100%;
+}
+
+section {
+  height: 100%;
 }

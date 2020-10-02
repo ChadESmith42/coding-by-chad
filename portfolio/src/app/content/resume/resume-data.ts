@@ -4,17 +4,137 @@ export const resume = {
       id: 1,
       title: 'Angular v2+',
       image: '',
+      avatar: '../../../assets/avatars/angular.png',
+      location: '',
+      dateRange: '',
+      descriptions: ['Started developing in Angular v4 in October 2018.', 'Two years of experience, working on a multiple medium-sized commercial applications.', 'Solid understanding of Angular testing. Developed a style guide for testing and compiled best practices for Angular testing.'],
+      achievements: ['Pluralsight Skills IQ: 211 - Expert']
+    },
+    {
+      id: 2,
+      title: 'Typescript',
+      image: '',
+      avatar: '../../../assets/avatars/typescript.png',
+      location: '',
+      dateRange: '',
+      descriptions: [],
+      achievements: ['Pluralsight Skills IQ: 173 - Proficient']
+    },
+    {
+      id: 3,
+      title: 'RxJS',
+      image: '',
+      avatar: '../../../assets/avatars/rxjs.png',
+      location: '',
+      dateRange: '',
+      descriptions: [],
+      achievements: ['Pluralsight Skills IQ: 131 - Proficient']
+    },
+    {
+      id: 4,
+      title: 'ES6 Javascript',
+      image: '',
+      avatar: '../../../assets/avatars/es6.jpeg',
+      location: '',
+      dateRange: '',
+      descriptions: [],
+      achievements: ['Pluralsight Skills IQ: 154 - Proficient']
+    },
+    {
+      id: 5,
+      title: 'Javascript',
+      image: '',
+      avatar: '../../../assets/avatars/javascript.png',
+      location: '',
+      dateRange: '',
+      descriptions: [],
+      achievements: ['Pluralsight Skills IQ: 130 - Proficient']
+    },
+    {
+      id: 6,
+      title: 'HTML5',
+      image: '',
+      avatar: '../../../assets/avatars/html5.png',
+      location: '',
+      dateRange: '',
+      descriptions: [],
+      achievements: ['Pluralsight Skills IQ: 130 - Proficient']
+    },
+    {
+      id: 7,
+      title: 'Data Analytics Literacy',
+      image: '',
       avatar: '',
       location: '',
       dateRange: '',
       descriptions: [],
-      achievements: ['Pluralsight Skills IQ: 211 - Expert']
+      achievements: ['Pluralsight Skills IQ: 224 - Expert']
+    },
+    {
+      id: 8,
+      title: 'Developing SQL Server Databases',
+      image: '',
+      avatar: '../../../assets/avatars/sql.png',
+      location: '',
+      dateRange: '',
+      descriptions: [],
+      achievements: ['Pluralsight Skills IQ: 145 - Proficient']
     },
     {
       id: 9,
+      title: 'CSS',
+      image: '',
+      avatar: '../../../assets/avatars/css.png',
+      location: '',
+      dateRange: '',
+      descriptions: [],
+      achievements: ['Pluralsight Skills IQ: 161 - Proficient']
+    },
+    {
+      id: 10,
+      title: 'Bootstrap',
+      image: '',
+      avatar: '../../../assets/avatars/bootstrap.png',
+      location: '',
+      dateRange: '',
+      descriptions: [],
+      achievements: ['Pluralsight Skills IQ: 183 - Proficient']
+    },
+    {
+      id: 11,
+      title: 'ASP.NET MVC5',
+      image: '',
+      avatar: '../../../assets/avatars/asp_net.jpg',
+      location: '',
+      dateRange: '',
+      descriptions: [],
+      achievements: ['Pluralsight Skills IQ: 171 - Proficient']
+    },
+    {
+      id: 12,
+      title: 'Mapbox GL JS',
+      image: '',
+      avatar: '../../../assets/avatars/mapbox.png',
+      location: '',
+      dateRange: '',
+      descriptions: ['Began developing projects with Mapbox GL in July 2018.', 'Over 10 years of GIS experience gives me a profound understanding of how to apply GIS technology to everyday problems.'],
+      achievements: []
+    },
+    {
+      id: 13,
+      title: 'C#',
+      image: '',
+      avatar: '../../../assets/avatars/c_sharp.png',
+      location: '',
+      dateRange: '',
+      descriptions: [],
+      achievements: ['Pluralsight Skills IQ: 177 - Proficient']
+    },
+    {
+      id: 14,
       title: 'French',
       image: '',
-      avatar: '',
+      avatar: '../../../assets/avatars/french.png',
       location: '',
       dateRange: '',
       descriptions: ['Literate. Spoken French at a conversational or elementary level.'],
@@ -69,7 +189,7 @@ export const resume = {
       title: 'Division G2X',
       image: '',
       avatar: '',
-      location: '35th Infantry Division, Kuwait',
+      location: '35th Infantry Division, Camp Arifjan, Kuwait',
       dateRange: 'May 2017 to April 2018',
       descriptions: ['Served as the Subject Matter Expert for all matters related to Human Intelligence Collection and Counter-Intelligence for the Division Commander (Major General Command). Served in a senior field grade officer position (executive / director-level) as a junior non-commissioned officer (junior manager / team leader).', 'Coordinated the day-to-day operations, including planning, operational control, and reporting. Mentored subordinates and provided quality assurance for all products.'],
       achievements: ['Adhered to regulations and protocols for handling classified information at, or above, the Secret level. No security violations for my section.']
