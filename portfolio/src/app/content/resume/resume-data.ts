@@ -7,8 +7,8 @@ export const resume = {
       avatar: '../../../assets/avatars/angular.png',
       location: '',
       dateRange: '',
-      descriptions: ['Started developing in Angular v4 in October 2018.', 'Two years of experience, working on a multiple medium-sized commercial applications.', 'Solid understanding of Angular testing. Developed a style guide for testing and compiled best practices for Angular testing.'],
-      achievements: ['Pluralsight Skills IQ: 211 - Expert']
+      descriptions: [],
+      achievements: []
     },
     {
       id: 2,
@@ -18,7 +18,7 @@ export const resume = {
       location: '',
       dateRange: '',
       descriptions: [],
-      achievements: ['Pluralsight Skills IQ: 173 - Proficient']
+      achievements: []
     },
     {
       id: 3,
@@ -28,7 +28,7 @@ export const resume = {
       location: '',
       dateRange: '',
       descriptions: [],
-      achievements: ['Pluralsight Skills IQ: 131 - Proficient']
+      achievements: []
     },
     {
       id: 4,
@@ -38,7 +38,7 @@ export const resume = {
       location: '',
       dateRange: '',
       descriptions: [],
-      achievements: ['Pluralsight Skills IQ: 154 - Proficient']
+      achievements: []
     },
     {
       id: 5,
@@ -48,7 +48,7 @@ export const resume = {
       location: '',
       dateRange: '',
       descriptions: [],
-      achievements: ['Pluralsight Skills IQ: 130 - Proficient']
+      achievements: []
     },
     {
       id: 6,
@@ -58,17 +58,7 @@ export const resume = {
       location: '',
       dateRange: '',
       descriptions: [],
-      achievements: ['Pluralsight Skills IQ: 130 - Proficient']
-    },
-    {
-      id: 7,
-      title: 'Data Analytics Literacy',
-      image: '',
-      avatar: '',
-      location: '',
-      dateRange: '',
-      descriptions: [],
-      achievements: ['Pluralsight Skills IQ: 224 - Expert']
+      achievements: []
     },
     {
       id: 8,
@@ -78,7 +68,7 @@ export const resume = {
       location: '',
       dateRange: '',
       descriptions: [],
-      achievements: ['Pluralsight Skills IQ: 145 - Proficient']
+      achievements: []
     },
     {
       id: 9,
@@ -88,7 +78,7 @@ export const resume = {
       location: '',
       dateRange: '',
       descriptions: [],
-      achievements: ['Pluralsight Skills IQ: 161 - Proficient']
+      achievements: []
     },
     {
       id: 10,
@@ -98,7 +88,7 @@ export const resume = {
       location: '',
       dateRange: '',
       descriptions: [],
-      achievements: ['Pluralsight Skills IQ: 183 - Proficient']
+      achievements: []
     },
     {
       id: 11,
@@ -108,7 +98,7 @@ export const resume = {
       location: '',
       dateRange: '',
       descriptions: [],
-      achievements: ['Pluralsight Skills IQ: 171 - Proficient']
+      achievements: []
     },
     {
       id: 12,
@@ -117,7 +107,7 @@ export const resume = {
       avatar: '../../../assets/avatars/mapbox.png',
       location: '',
       dateRange: '',
-      descriptions: ['Began developing projects with Mapbox GL in July 2018.', 'Over 10 years of GIS experience gives me a profound understanding of how to apply GIS technology to everyday problems.'],
+      descriptions: [],
       achievements: []
     },
     {
@@ -128,7 +118,7 @@ export const resume = {
       location: '',
       dateRange: '',
       descriptions: [],
-      achievements: ['Pluralsight Skills IQ: 177 - Proficient']
+      achievements: []
     },
     {
       id: 14,
@@ -137,7 +127,7 @@ export const resume = {
       avatar: '../../../assets/avatars/french.png',
       location: '',
       dateRange: '',
-      descriptions: ['Literate. Spoken French at a conversational or elementary level.'],
+      descriptions: [],
       achievements: []
     }
   ],
@@ -272,7 +262,7 @@ export const resume = {
       location: 'Dallas Police Department, Dallas, TX',
       dateRange: 'September 2000 - August 2009',
       descriptions: ['Directly handled various different police officer activities, including serving as a Crime Analyst, Patrol Officer, Detective Analyst, and Field Training Officer.', 'Closely analyzed emerging crime trends or crime related issues. Demonstrated strong communication skills in presenting daily briefings during COMPSTAT meetings with the executive staff of the police department.', 'Designed, developed, and implemented key methodologies for analyzing spatial patterns of crime that conform to scientific methods; presented research findings at professional conferences. Actively collaborated with the academic and public researchers to develop appropriate sites for research projects for police methods.'],
-      achievements: ['Corrected legacy data problems and increased geocoding accuracy for spatial analysis by creating and implementing efficient structured query language (SQL) queries.', 'Boosted geocoding accuracy from 68% to over 99% by implementing methods to facilitate clean legacy data.', 'Earned 22 commendations, including a Meritorious Conduct Award, a 5 Year Service Pin, a 5 Year Safe Driving Award, and three Expert Marksmanship Awards.']
+      achievements: ['Corrected legacy data problems and increased geocoding accuracy for spatial analysis by creating and implementing efficient structured query language (SQL) queries. Data accuracy improved from 68% to over 99%.', 'Earned 22 commendations, a Meritorious Conduct Award, a 5 Year Service Pin, a 5 Year Safe Driving Award, and three Expert Marksmanship Awards.']
     }
   ],
   organizations: [
@@ -280,8 +270,8 @@ export const resume = {
       id: 1,
       title: 'Coder Dojo',
       image: '',
-      avatar: '',
-      location: 'Kansas City, MO',
+      avatar: '../../../assets/avatars/coder_dojo.png',
+      location: '',
       dateRange: 'August 2018 - January 2020',
       descriptions: ['Mentor students, ages 7-14, on coding issues as they develop their projects.'],
       achievements: []
@@ -290,8 +280,8 @@ export const resume = {
       id: 2,
       title: 'NgGirls',
       image: '',
-      avatar: '',
-      location: 'Kansas City, MO',
+      avatar: '../../../assets/avatars/ng_girls.jpeg',
+      location: '',
       dateRange: 'July 2019 - present',
       descriptions: ['Served as mentor for new Angular developers during a two day workshop.'],
       achievements: []
