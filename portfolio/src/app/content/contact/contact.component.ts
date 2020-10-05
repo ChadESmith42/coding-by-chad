@@ -42,6 +42,8 @@ export class ContactComponent implements OnInit {
       } else {
         this.response = 'There was a problem sending your message. Please try again later.';
       }
+    }, (e) => {
+      this.response = 'There was a problem sending your message. Please try again later.';
     });
   }
 }
