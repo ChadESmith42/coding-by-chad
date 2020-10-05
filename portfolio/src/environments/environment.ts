@@ -3,7 +3,8 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  emailUrl: 'https://us-central1-innate-path-248719.cloudfunctions.net/contact_us'
 };
 
 /*

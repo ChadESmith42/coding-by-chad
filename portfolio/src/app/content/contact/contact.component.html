@@ -16,9 +16,12 @@
             </div>
             <div class="form-group">
                 <label for="subject">Message</label>
-                <textarea class="form-control" id="subject" formControlName="subject" rows="10" cols="80" autocomplete="off" spellcheck="true" aria-autocomplete="none"></textarea>
+                <textarea class="form-control" id="message" formControlName="message" rows="10" cols="80" autocomplete="off" spellcheck="true" aria-autocomplete="none"></textarea>
             </div>
           <button type="submit" class="submit-button">Submit</button>
           </form>
+    </article>
+    <article *ngIf="response !== ''" class="response">
+      {{ response }}
     </article>
 </section>
