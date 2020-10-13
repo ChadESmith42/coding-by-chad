@@ -18,7 +18,7 @@
       <div class="curtain-menu" *ngIf="showMenu">
         <button (click)="openMenu()" class="close-button">&times;</button>
         <div class="menu-items">
-            <span *ngFor="let link of links" [routerLink]="link.fragment" [routerLinkActive]="['active-link']" [routerLinkActiveOptions]="{exact: true}" class="menu-item-links">{{ link.title }}</span>
+            <span *ngFor="let link of links" [routerLink]="link.fragment" [routerLinkActive]="['active-link']" [routerLinkActiveOptions]="{exact: true}" class="menu-item-links" (click)="showMenu = !showMenu">{{ link.title }}</span>
           </div>
         </div>
     </ng-template>

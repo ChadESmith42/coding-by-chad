@@ -80,7 +80,8 @@
 }
 
 .menu-button {
-  float: right;
+  position: absolute;
+  right: 1.5rem;
   margin-left: 5rem;
   height: 3rem;
   width: 3rem;
