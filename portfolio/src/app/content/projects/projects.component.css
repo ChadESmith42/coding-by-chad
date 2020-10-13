@@ -21,6 +21,11 @@
   margin: 0;
 }
 
+.warn-text {
+  color: var(--pomegranate);
+  font-weight: 700;
+}
+
 .project-cards {
   display: flex;
   flex-flow: row wrap;
@@ -51,7 +56,7 @@
 
 .card-body {
   margin: 8px 12px;
-  height: 424px;
+  min-height: 424px;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
 }
