@@ -1,8 +1,25 @@
 <section class="navigation">
   <a class="brand item" [routerLink]="['/']" [routerLinkActive]="['active-link']" [routerLinkActiveOptions]="{exact: true}">Coding By Chad</a>
-  <div class="nav-links item">
-    <span *ngFor="let link of links" [routerLink]="link.fragment" [routerLinkActive]="['active-link']" [routerLinkActiveOptions]="{exact: true}" class="nav-link-item">
-      <a>{{ link.title }}</a>
-    </span>
-  </div>
+
+  <ng-container *ngIf="screenWdth  >= 768; then desktop; else mobile">  </ng-container>
+    <ng-template #desktop>
+      <div class="nav-links item">
+        <span *ngFor="let link of links" [routerLink]="link.fragment" [routerLinkActive]="['active-link']" [routerLinkActiveOptions]="{exact: true}" class="nav-link-item">
+          <a>{{ link.title }}</a>
+        </span>
+      </div>
+    </ng-template>
+    <ng-template #mobile>
+      <button class="menu-button" (click)="openMenu()">
+        <span class="hamburger"></span>
+        <span class="hamburger"></span>
+        <span class="hamburger"></span>
+      </button>
+      <div class="curtain-menu" *ngIf="showMenu">
+        <button (click)="openMenu()" class="close-button">&times;</button>
+        <div class="menu-items">
+            <span *ngFor="let link of links" [routerLink]="link.fragment" [routerLinkActive]="['active-link']" [routerLinkActiveOptions]="{exact: true}" class="menu-item-links">{{ link.title }}</span>
+          </div>
+        </div>
+    </ng-template>
 </section>

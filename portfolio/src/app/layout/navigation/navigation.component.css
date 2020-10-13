@@ -39,3 +39,59 @@
 .active-link:hover, .active-link:focus {
   text-decoration: underline solid var(--clouds);
 }
+
+.curtain-menu {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  background-color: var(--opaque-midnight-blue);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.menu-items {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.menu-item-links {
+  padding: 0.5rem;
+  text-decoration: none;
+  font-size: 2.5rem;
+  color: var(--clouds);
+  display: block;
+  transition: 0.3s;
+}
+
+.close-button {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  font-size: 2.5rem;
+  border-radius: 100%;
+  height: 3rem;
+  width: 3rem;
+}
+
+.menu-button {
+  float: right;
+  margin-left: 5rem;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 100%;
+}
+
+.hamburger {
+  display: block;
+  margin: 0.25rem;
+  height: 0.25rem;
+  width: 1.5rem;
+  background: var(--midnight-blue);
+  border-radius: 0.5rem;
+}
