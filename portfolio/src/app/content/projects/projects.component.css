@@ -39,12 +39,15 @@
 .card {
   background-color: var(--midnight-blue);
   color: var(--clouds);
+  display: flex;
+  flex-flow: column nowrap;
 }
 
 .card-title {
   font-size: 28px;
   padding: 0;
   margin: 0;
+  flex: 1 0;
 }
 
 .card-img {
@@ -52,21 +55,26 @@
   height: 240px;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
+  flex: 240px;
 }
 
 .card-body {
   margin: 8px 12px;
-  min-height: 424px;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
+  height: calc(minmax(29.5rem, 36rem));
 }
 
 .card-footer {
   box-sizing: content-box;
   background-color: var(--pomegranate);
   padding: 24px 0 24px 0;
-  height: 40px;
   color: var(--clouds);
+  flex: 40px;
+}
+
+.spacer {
+  flex: auto;
 }
 
 .btn {
