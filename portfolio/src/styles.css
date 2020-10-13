@@ -52,7 +52,7 @@ a:hover, a:focus, a:visited {
 
 .grid-container {
   display: grid;
-  grid-template-columns: [ startLeftMargin ] 1.5rem [ endLeftMargin startContent ] auto [ endContent startRightMargin ] 1.5rem [ endRightMargin ];
+  grid-template-columns: [ startLeftMargin ] 1rem [ endLeftMargin startContent ] auto [ endContent startRightMargin ] 1rem [ endRightMargin ];
   grid-template-rows: [ startHeader ] auto [ endHeader startMain] auto [ endMain startFooter ] 1.5rem [ endFooter ];
   row-gap: 1rem;
 }
