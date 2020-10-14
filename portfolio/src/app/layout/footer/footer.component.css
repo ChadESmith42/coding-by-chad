@@ -1,28 +1,36 @@
 .footer-container {
   display: flex;
   flex-flow: row nowrap;
-  padding-left: 24px;
+  align-items: stretch;
+  justify-items: center;
+  padding-left: 1.5rem;
   color: var(--clouds);
   background-color: var(--midnight-blue);
-  border-radius: 8px;
+  border-radius: 0.5rem;
   text-decoration: none;
   font-family: 'VT323', monospace;
   font-weight: 200;
-  font-size: 30px;
+  font-size: 1.75rem;
 }
 
 .footer-container > * {
   flex: 1 auto;
+  line-height: 2rem;
+}
+
+a {
+  font-size: 1.75rem;
 }
 
 a:hover, a:focus, a:visited {
   text-decoration: underline solid var(--alizarin);
   -webkit-any-link: var(--clouds);
   color: var(--clouds);
+  cursor: pointer;
 }
 
 .footer-container h3 {
   font-family: 'VT323', monospace;
   font-weight: 200;
-  font-size: 30px;
+  font-size: 1.75rem;
 }
