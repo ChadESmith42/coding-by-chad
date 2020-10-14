@@ -7,3 +7,9 @@
 section {
   height: 100%;
 }
+
+section h3 {
+  border-bottom: 0.25rem var(--midnight-blue) solid;
+  border-radius: 0.25rem;
+  padding-left: 0.25rem;
+}

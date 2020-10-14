@@ -37,13 +37,11 @@ export class ContactComponent implements OnInit {
 
     console.log(mailMessage);
     this.contactService.SendEmail(mailMessage).subscribe(r => {
-      if (r) {
+      if (r.statusCode === 204) {
         this.response = 'Your message has been sent.';
-      } else {
-        this.response = 'There was a problem sending your message. Please try again later.';
       }
-    }, (e) => {
-      this.response = 'There was a problem sending your message. Please try again later.';
+      }, (e) => {
+        this.response = 'There was a problem sending your message. Please try again later.';
     });
   }
 }
