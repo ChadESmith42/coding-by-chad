@@ -15,7 +15,17 @@
   justify-self: flex-start;
 }
 
-.item a {
+article.item div a,
+article.item div a:hover,
+article.item div a:visited
+article.item div a:focus {
+  color: var(--clouds);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.item span {
   font-family: 'VT323', monospace;
   font-size: 28px;
   font-weight: 200;
